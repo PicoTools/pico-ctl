@@ -15,6 +15,7 @@ func UnaryClientInterceptor(t string) grpc.UnaryClientInterceptor {
 		return invoker(ctx, method, req, reply, cc, opts...)
 	}
 }
+
 // StreamClientInterceptor returns stream interceptor to add access token in requests
 func StreamClientInterceptor(t string) grpc.StreamClientInterceptor {
 	return func(ctx context.Context, desc *grpc.StreamDesc, cc *grpc.ClientConn, method string, streamer grpc.Streamer, opts ...grpc.CallOption) (grpc.ClientStream, error) {

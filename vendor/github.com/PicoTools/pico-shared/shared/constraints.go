@@ -1,6 +1,11 @@
 package shared
 
 const (
+	// default color used in process of object's creation
+	DefaultObjectColor = uint32(0)
+)
+
+const (
 	// maximum length of operator's username
 	OperatorUsernameMaxLength = 256
 	// minimum length of operator's username
@@ -15,18 +20,18 @@ const (
 )
 
 const (
-	// maximum length of ant's operating system meta information
-	AntOsMetaMaxLength = 1024
-	// maximum length of ant's hostname
-	AntHostnameMaxLength = 256
-	// maximum length of ant's username
-	AntUsernameMaxLength = 256
-	// maximum length of ant's domain
-	AntDomainMaxLength = 256
-	// maximum length of ant's process name
-	AntProcessNameMaxLength = 1024
-	// maximum length of ant's note
-	AntNoteMaxLength = 256
+	// maximum length of agent's operating system meta information
+	AgentOsMetaMaxLength = 1024
+	// maximum length of agent's hostname
+	AgentHostnameMaxLength = 256
+	// maximum length of agent's username
+	AgentUsernameMaxLength = 256
+	// maximum length of agent's domain
+	AgentDomainMaxLength = 256
+	// maximum length of agent's process name
+	AgentProcessNameMaxLength = 1024
+	// maximum length of agent's note
+	AgentNoteMaxLength = 256
 )
 
 const (
@@ -34,8 +39,6 @@ const (
 	ChatMessageMinLength = 1
 	// maximum length of chat's message
 	ChatMessageMaxLength = 4096
-	// server name for posing in chat
-	ChatSrvFrom = ""
 )
 
 const (

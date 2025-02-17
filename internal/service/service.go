@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/PicoTools/pico-ctl/internal/middleware"
-	managementv1 "github.com/PicoTools/pico-shared/proto/gen/management/v1"
-	"github.com/PicoTools/pico-shared/shared"
+	managementv1 "github.com/PicoTools/pico/pkg/proto/management/v1"
+	"github.com/PicoTools/pico/pkg/shared"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

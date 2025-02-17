@@ -1,15 +1,15 @@
-# github.com/PicoTools/pico-shared v0.0.0-20250112140806-f35177da4cab
-## explicit; go 1.23.4
-github.com/PicoTools/pico-shared/proto/gen/common/v1
-github.com/PicoTools/pico-shared/proto/gen/management/v1
-github.com/PicoTools/pico-shared/shared
+# github.com/PicoTools/pico v0.0.0-20250217182056-52fa7fca423f
+## explicit; go 1.24.0
+github.com/PicoTools/pico/pkg/proto/common/v1
+github.com/PicoTools/pico/pkg/proto/management/v1
+github.com/PicoTools/pico/pkg/shared
 # github.com/docker/go-units v0.5.0
 ## explicit
 github.com/docker/go-units
 # github.com/fatih/color v1.18.0
 ## explicit; go 1.17
 github.com/fatih/color
-# github.com/go-faster/sdk v0.26.1
+# github.com/go-faster/sdk v0.27.0
 ## explicit; go 1.22.7
 github.com/go-faster/sdk/zctx
 # github.com/inconshreveable/mousetrap v1.1.0
@@ -91,7 +91,7 @@ github.com/rsteube/carapace/third_party/golang.org/x/sys/execabs
 # github.com/rsteube/carapace-shlex v0.1.2
 ## explicit; go 1.15
 github.com/rsteube/carapace-shlex
-# github.com/spf13/cobra v1.8.1
+# github.com/spf13/cobra v1.9.1
 ## explicit; go 1.15
 github.com/spf13/cobra
 # github.com/spf13/pflag v1.0.6

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	managementv1 "github.com/PicoTools/pico-shared/proto/gen/management/v1"
+	managementv1 "github.com/PicoTools/pico/pkg/proto/management/v1"
 	"github.com/docker/go-units"
 )
 

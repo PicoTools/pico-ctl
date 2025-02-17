@@ -6,7 +6,7 @@ import (
 
 	"github.com/PicoTools/pico-ctl/internal/service"
 	"github.com/PicoTools/pico-ctl/internal/utils"
-	"github.com/PicoTools/pico-shared/shared"
+	"github.com/PicoTools/pico/pkg/shared"
 	"github.com/fatih/color"
 	"github.com/reeflective/console"
 	"github.com/spf13/cobra"

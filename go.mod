@@ -3,12 +3,12 @@ module github.com/PicoTools/pico-ctl
 go 1.24.0
 
 require (
-	github.com/PicoTools/pico-shared v0.0.0-20250112140806-f35177da4cab
+	github.com/PicoTools/pico v0.0.0-20250217182056-52fa7fca423f
 	github.com/docker/go-units v0.5.0
 	github.com/fatih/color v1.18.0
-	github.com/go-faster/sdk v0.26.1
+	github.com/go-faster/sdk v0.27.0
 	github.com/reeflective/console v0.1.22
-	github.com/spf13/cobra v1.8.1
+	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.6
 	go.uber.org/zap v1.27.0
 	golang.org/x/term v0.29.0
